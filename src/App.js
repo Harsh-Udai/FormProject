@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Control from './Components/Control';
 
 function App() {
+  const [times,setTime] = useState(1);
+
+  function inc(){
+    setTime(times+1)
+  }
+
+  const renderForm = ()=>{
+    var partV=[]
+    for(let i=0;i<times;i++){
+      partV.push(<Control inc={inc} />)
+    }
+    return partV
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {renderForm()}
     </div>
   );
 }

@@ -1,0 +1,70 @@
+.mainCon{
+    /* background-color: antiquewhite; */
+}
+*{
+    font-weight: 600;
+}
+.mainC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainC_{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.head{
+    text-align: center;
+    font-size: 200%;
+}
+.textHead{
+    text-align: center;
+    width: 400px;
+}
+.field_1Text{
+    /* text-align: center; */
+    width: 700px;
+}
+.input_1{
+    width: 700px;
+    height: 100px;
+}
+.filed3P{
+    /* text-align: center; */
+}
+.addButton{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 45px;
+    height: 38px;
+    border: none;
+    background-color: #2980B9;
+    color: white;
+    font-size: 200%;
+    cursor: pointer;
+}
+.addButton_1{
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 85px;
+    height: 38px;
+    border: none;
+    background-color: #2980B9;
+    color: white;
+    /* font-size: 200%; */
+    cursor: pointer;
+}
+.addButton_2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 85px;
+    height: 38px;
+    border: none;
+    background-color: #2980B9;
+    color: white;
+    /* font-size: 200%; */
+    cursor: pointer;
+}
